@@ -1,7 +1,6 @@
 # esphome-shelly_dht
 
 ESPHome **external component** to add support for **Shelly Plus Addon devices with a DHT temperature and humidity sensor**
-(e.g. Shelly 1 with DHT11/DHT22 sensor).
 
 This repository provides an external ESPHome component so you can easily integrate a DHT sensor connected to a
 Shelly Plus Addon device into Home Assistant.
