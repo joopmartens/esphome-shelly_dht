@@ -1,0 +1,9 @@
+{
+  "domain": "shelly_dht",
+  "name": "Shelly DHT Sensor",
+  "documentation_link": "https://github.com/joopmartens/esphome-shelly_dht",
+  "version": "1.1.0",
+  "codeowners": ["@joopmartens"],
+  "dependencies": ["sensor"],
+  "supported_platforms": ["esp8266", "esp32"]
+}
