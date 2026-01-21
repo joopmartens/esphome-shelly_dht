@@ -1,1 +1,1 @@
-CODEOWNERS = ["@OttoWinter"]
+"""ESPHome component: shelly_dht."""
