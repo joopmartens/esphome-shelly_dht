@@ -6,7 +6,7 @@ This repository provides an external ESPHome component so you can easily integra
 Shelly Plus Addon device into Home Assistant.
 
 The shelly plus addon has an opto-isolator that only passes each pin in one direction.
-This requires the dht component to use two (data) pins instead of one for bidirectinal communication.
+This requires the dht component to use two (data) pins instead of one for bidirectional communication.
 
 ---
 
