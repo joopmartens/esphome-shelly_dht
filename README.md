@@ -5,6 +5,9 @@ ESPHome **external component** to add support for **Shelly Plus Addon devices wi
 This repository provides an external ESPHome component so you can easily integrate a DHT sensor connected to a
 Shelly Plus Addon device into Home Assistant.
 
+The shelly plus addon has an opto-isolator that only passes each pin in one direction.
+This requires the dht component to use two (data) pins instead of one for bidirectinal communication.
+
 ---
 
 ## Features
@@ -57,7 +60,7 @@ sensor:
 | Option             | Required | Description |
 |--------------------|----------|-------------|
 | `pin`              | Yes      | GPIO pin DHT data line |
-| `pin_a`            | Yes      | GPIO pin power/control |
+| `pin_a`            | Yes      | 2nd GPIO pin DHT data line |
 | `model`            | No       | DHT sensor model (`DHT11`, `DHT22`, `AM2302`) |
 | `update_interval`  | No       | Sensor polling interval (default: 60s) |
 | `temperature`      | Yes      | Temperature sensor configuration |
